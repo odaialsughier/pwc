@@ -1,0 +1,56 @@
+.dougnuts{
+    margin-top: 25px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .dougnuts{margin-top:20px;}    
+}
+
+.bar{
+    margin-top: 50px;
+}
+
+.dashboardChatrs .card-header {
+    height: 50vh;
+}
+
+.dashboardChatrs .card-header .ct-chart {
+    height: 100%;
+}
+
+:host >>> .dashboardChatrs [class*=card-header-] .ct-chart .ct-bar  {
+    stroke-width: 50px;
+}
+
+
+#newPatientsChart >>> span.ct-label.ct-horizontal.ct-end, #newAppointmentsChart >>> span.ct-label.ct-horizontal.ct-end {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+#newPatientsChart >>> .ct-label.ct-vertical.ct-start, #newAppointmentsChart >>> .ct-label.ct-vertical.ct-start {
+    font-weight: 500;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+
+@media (max-width: 690px) {
+    .dashboardChatrs .card-header {
+        overflow-x: scroll;
+    }
+    :host >>> .dashboardChatrs [class*=card-header-] .ct-chart .ct-bar  {
+        stroke-width: 25px;
+    }
+
+    .dashboardChatrs .card-header .ct-chart {
+        min-width: 500px;
+    }
+
+    :host >>> .card [class*=card-header-] .ct-chart .ct-series-a .ct-bar {
+        stroke-width: 25px;
+    }
+
+    #newPatientsChart >>> span.ct-label.ct-horizontal.ct-end, #newAppointmentsChart >>> span.ct-label.ct-horizontal.ct-end {
+        line-height: 10px;
+    }
+}

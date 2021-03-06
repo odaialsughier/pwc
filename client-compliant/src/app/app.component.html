@@ -1,0 +1,18 @@
+<app-layout *ngIf="_auth.loggedIn()">
+    <mat-sidenav-container>
+      <mat-sidenav mode="side" [opened]="!(isHandset$ | async)" #sidenav role="navigation">
+        <app-sidebar (sidenavClose)="sidenav.close()"></app-sidebar>
+
+      </mat-sidenav>
+
+      <mat-sidenav-content>
+        <app-nav (sidenavToggle)="sidenav.toggle()"></app-nav>
+        <main>
+                <router-outlet></router-outlet>
+            </main>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</app-layout>
+<div class="wrapper wrapper-full-page" *ngIf="!_auth.loggedIn()">
+    <router-outlet></router-outlet>
+</div>

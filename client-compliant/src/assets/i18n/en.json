@@ -1,0 +1,14 @@
+{
+  "Login": "Login",
+  "Name": "Name",
+  "Phone": "Phone",
+  "MRN": "MRN",
+  "Gender": "Gender",
+  "Age": "Age",
+  "Insurance": "Insurance",
+  "Last Update": "Last Update",
+  "Action": "Action",
+  "person_add": "person_add",
+  "Create New User": "Create New User",
+  "Update": "Update"
+}

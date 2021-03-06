@@ -1,0 +1,135 @@
+/* You can add global styles to this file, and also import other style files */
+.fc-event,.fc-event:hover{
+    color: #000000;
+}
+
+
+.appointment-pending {
+    background-color: #7e2d39;
+    color: #FFFFFF;
+}
+
+.appointment-pending:hover {
+    color: #000000;
+}
+
+.appointment-confirmed{
+    background: #eae9e9;
+}
+
+.appointment-canceled,.appointment-rejected {
+    text-decoration: line-through!important;
+    color: #000000;
+}
+
+.fc-event-title{ white-space: normal!important; }
+
+
+
+/*********** Tel-Input-Custom ***********/
+.iti {
+    display: block !important;
+    margin-top: 6px;
+}
+
+.iti .dropdown-menu.country-dropdown {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: #c7cace;
+    margin-top: -1px;
+}
+
+.iti .iti__country-list {
+    box-shadow: none;
+    font-size: 14px;
+    margin-left: 0;
+    width: 244px;
+    max-height: 170px;
+}
+
+.iti__flag-container.open + input {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.iti .search-container input {
+    font-size: 14px;
+    border-color: #c7cace;
+    border-radius: 0;
+    padding: 5px 10px;
+}
+
+.iti .search-container input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 479px) {
+    .iti .iti__country-list {
+        width: 88.3vw;
+    }
+}
+
+ngx-intl-tel-input input {
+    height: 44px;
+    margin-top: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c7cace;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+ngx-intl-tel-input.ng-invalid.ng-touched input {
+    border: 1px solid #c0392b;
+}
+
+ngx-intl-tel-input input:hover {
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.24);
+}
+
+ngx-intl-tel-input input:focus {
+    outline: none !important;
+    border-color: #3498db;
+    box-shadow: 0 0 0 0 #000;
+}
+
+ngx-intl-tel-input input::-webkit-input-placeholder {
+    color: #bac2c7;
+}
+
+ngx-intl-tel-input input:-ms-input-placeholder {
+    color: #bac2c7;
+}
+
+ngx-intl-tel-input input::-ms-input-placeholder {
+    color: #bac2c7;
+}
+
+ngx-intl-tel-input input::placeholder {
+    color: #bac2c7;
+}
+
+ngx-intl-tel-input input[disabled] {
+    background-color: #e5eaf1;
+}
+
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
+    height: 50px !important;
+    width: 100% !important;
+}
+
+.action-notification span {
+    font-weight: 700;
+    margin: auto;
+}
+
+/* for sidenav to take a whole page */
+html, body { 
+    margin: 0;
+    height: 100%;
+}
+
+    .main-content{
+        margin-top: 75px;
+}

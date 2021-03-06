@@ -1,0 +1,14 @@
+{
+  "Login": "تسجيل الدخول",
+  "Name": "الاسم",
+  "Phone": "رقم الهاتف",
+  "MRN": "رقم السجل الطبي",
+  "Gender": "الجنس",
+  "Age": "العمر",
+  "Insurance": "التأمين",
+  "Last Update": "آخر تحديث",
+  "Action": "العملية",
+  "person_add": "person_add_alt_1",
+  "Create New User": "إضافة عامل جديد",
+  "Update": "تعديل"
+}

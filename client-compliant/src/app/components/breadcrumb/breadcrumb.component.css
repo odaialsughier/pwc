@@ -1,0 +1,38 @@
+.breadcrumb {
+    background-color: #ffffff ;
+    font-size: 0.8em;
+    margin: 0 0 25px 0;
+}
+.breadcrumb a,span,button {
+    color: darkgrey;
+    font-size: 18px;
+}
+.breadcrumb a:hover,
+span:hover {
+    color: dimgrey;
+    text-decoration: none;
+}
+.breadcrumb li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+.breadcrumb li:last-child {
+    margin-right: 5px;
+}
+.breadcrumb li::after {
+    margin-left: 5px;
+    content: "|";
+    color: darkgrey;
+    font-size: 18px;
+}
+.breadcrumb li:last-child::after {
+    content: "";
+}
+
+@media (max-width: 425px) {
+    .breadcrumb a,span,button {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
