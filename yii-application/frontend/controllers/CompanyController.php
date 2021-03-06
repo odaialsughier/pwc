@@ -10,7 +10,7 @@ namespace frontend\controllers;
 
 use common\models\Complaint;
 
-class ComplaintController extends ActiveController
+class CompanyController extends ActiveController
 {
 
     public $modelClass = Complaint::class;
